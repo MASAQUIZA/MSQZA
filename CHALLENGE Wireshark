@@ -1,0 +1,14 @@
+#Quels protocoles ont été utilisés dans la trace réseau capturée ? Indique comment tu as eu cette information (quelle fenêtre, éventuellement quelle ligne ou quelle colonne).
+#Colonne 5 Protocol
+#ARP 4 : ligne 1et 2
+#ICMP 4 : ligne 3,4 - 10
+#Quelles sont les adresses IP et les adresses MAC des interfaces ayant échangé des informations ?
+#Adresses IP	Adresses MAC
+#10.1.1.1	   00:50:79:66:68:00
+#10.1.1.2	   00:50:79:66:68:01
+#Quel filtre d’affichage permet de ne plus afficher les paquets ARP ?
+#Analyser_Filtre d'affichage_not ARP
+#Quelles informations sont disponibles dans la colonne info de la liste des paquets pour la ligne 3 ?
+#Afiche les type de trame, Adresse MAC source et destinataire, Protocole Réseau, Adresses IP source et destinataire, Protocole de transporte ou de message
+#Le paquet N°8 est-il une question ou une réponse ? et quel est le paquet correspondant (la question, si c’est une réponse ou la réponse, si c’est une question ?
+#Le paquet N°8 est la réponse a la question du paquet N°7

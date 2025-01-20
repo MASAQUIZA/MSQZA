@@ -1,0 +1,22 @@
+# Élément demandé	        Valeur trouvée
+#L'adresse MAC source	00:1a:73:24:44:89
+#L'adresse MAC destination	00:12:17:41:c2:c7
+#L'EtherType	0800 (IPv4)
+
+#Le contenu de l'en-tête IP, soit:
+
+#La version du protocole	4 (IPv4)
+#L'IHL	5 (20 octets)
+#Le service	00
+#La longueur totale du datagramme IP (en décimal, pas en hexadécimal)
+	 01bb ou 443 (décimal)
+#L'identifiant affecté au datagramme	dac2 (56002 en décimal)
+#Les flags	40
+#Les offsets	00 (0 en décimal)
+#La valeur du champ TTL	3c
+#Le contenu du champ protocole. En déduire le protocole encapsulé dans le
+paquet IP.  06 (TCP)
+#Le checksum	fc9d
+#L'adresse IP source (en format décimal)	213.228.0.42/d5 e4 00 2a
+#L'adresse IP de destination (en format décimal)	62.147.81.59/3e 93 51 3b
+
